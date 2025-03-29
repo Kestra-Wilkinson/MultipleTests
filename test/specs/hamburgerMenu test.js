@@ -8,7 +8,7 @@ describe('Hamburger Menu Tests', () => {
         await LoginPage.login('standard_user', 'secret_sauce');
     });
 })
-    // Tests for menu interactions
+   
     describe('Menu Interactions', () => {
         it('should open and close the hamburger menu', async () => {
            
